@@ -1,9 +1,6 @@
-import React from 'react';
-import { createMemoryHistory } from 'history';
 import { BrowserRouter } from 'react-router-dom';
 import { describe, expect } from 'vitest';
 import LayoutProvider from './LayoutProvider';
-import { NavBarGroup } from '@components';
 import { render, screen } from '@utils/test-utils';
 
 describe('LayoutProvider', () => {

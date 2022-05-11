@@ -8,10 +8,9 @@ import {
 import classNames from 'classnames';
 import { Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import { ColorMode, NavItem, NavLogo, NavBarGroup } from '@components';
+import { NavItem, NavLogo } from '@components';
 
 type NavBarProps = {
-  children?: React.ReactNode;
   logo?: React.ReactNode;
 };
 
@@ -36,7 +35,7 @@ const user = {
   imageUrl: ''
 };
 
-const NavBar = ({ children, logo }: NavBarProps) => {
+const NavBar = ({ logo }: NavBarProps) => {
   const router = window.location;
 
   return (
@@ -66,7 +65,6 @@ const NavBar = ({ children, logo }: NavBarProps) => {
                   <PlusSmIcon className='h-5 w-5' />
                   <span className='ml-1'>Add</span>
                 </button>
-                <ColorMode />
                 <button
                   type='button'
                   className='hidden rounded-full bg-white p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:bg-transparent'

@@ -1,5 +1,3 @@
-import classNames from 'classnames';
-import { Header, NavBarGroup } from '@components';
 import { Outlet } from 'react-router-dom';
 
 type DocumentationLayoutProps = {
@@ -11,9 +9,7 @@ type DocumentationLayoutProps = {
 
 export default function DocumentationLayout({
   children,
-  documentName,
-  blank = false,
-  className
+  blank = false
 }: DocumentationLayoutProps) {
   if (blank) {
     return <div className='min-h-full'>{children}</div>;
@@ -26,5 +22,5 @@ export default function DocumentationLayout({
 }
 
 export const Footer = () => {
-  return <footer>Here's a footer</footer>;
+  return <footer>Here&apos;s a footer</footer>;
 };

@@ -1,11 +1,8 @@
-import * as React from 'react';
-import { BrowserRouter, Route, Routes, MemoryRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { describe, expect, it } from 'vitest';
 import NotFound from './NotFound';
-import { render, screen, userEvent, waitFor } from '@/utils/test-utils';
+import { render, screen, waitFor } from '@/utils/test-utils';
 import { createMemoryHistory } from 'history';
-import { Button } from '@components';
-import { DefaultLayout } from '@layouts';
 
 describe('NotFound', () => {
   it('renders without error', () => {

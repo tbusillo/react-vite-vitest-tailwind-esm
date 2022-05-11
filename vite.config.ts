@@ -41,7 +41,7 @@ export default defineConfig(async (ConfigEnv) => {
     envDir: './.env',
     server: {
       open: './index.html',
-      port: env['VITE_PORT'] as any | 3000,
+      port: env['VITE_PORT'] as unknown as number | 3000,
       watch: {
         ignored: ['!**/node_modules/your-package-name/**']
       }

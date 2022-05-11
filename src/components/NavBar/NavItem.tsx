@@ -4,16 +4,9 @@ import { Link } from 'react-router-dom';
 type NavItemProps = {
   name: string;
   href: string;
-  className?: string;
-  children?: React.ReactNode;
 };
 
-export default function NavItem({
-  name,
-  href,
-  className,
-  children
-}: NavItemProps) {
+export default function NavItem({ name, href }: NavItemProps) {
   const isCurrent = window.location.pathname === href;
   return (
     <Link

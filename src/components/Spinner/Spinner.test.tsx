@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, it } from 'vitest';
 import Spinner from './Spinner';
 import { render, screen } from '@/utils/test-utils';
 

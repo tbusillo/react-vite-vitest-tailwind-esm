@@ -2,8 +2,6 @@ import React from 'react';
 import classNames from 'classnames';
 
 type SpinnerProps = {
-  className?: string;
-  children?: React.ReactNode;
   size: 'sm' | 'md' | 'lg' | 'xl';
   color: 'primary' | 'secondary' | 'warning' | 'danger';
 };
@@ -24,12 +22,7 @@ const variant = {
   }
 };
 
-const Spinner = ({
-  className,
-  children,
-  size = 'md',
-  color = 'primary'
-}: SpinnerProps) => {
+const Spinner = ({ size = 'md', color = 'primary' }: SpinnerProps) => {
   return (
     <>
       <svg

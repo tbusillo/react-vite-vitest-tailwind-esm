@@ -1,6 +1,6 @@
 import { describe, expect } from 'vitest';
 import App from '@/App';
-import { render, screen, userEvent } from '@/utils/test-utils';
+import { render, screen } from '@/utils/test-utils';
 import { BrowserRouter } from 'react-router-dom';
 
 describe('Simple working test', () => {

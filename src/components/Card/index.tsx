@@ -26,13 +26,7 @@ type CardContentProps = {
   isLoading?: boolean;
 };
 
-export default function Card({
-  className,
-  header,
-  footer,
-  children,
-  ...props
-}: CardProps) {
+export default function Card({ className, children }: CardProps) {
   return (
     <>
       <div

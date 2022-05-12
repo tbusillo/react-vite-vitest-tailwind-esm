@@ -17,9 +17,9 @@ import remarkCodeFrontmatter from 'remark-code-frontmatter';
 import rehypeExternalLinks from 'rehype-external-links';
 import rehypeSlugCustomId from 'rehype-slug-custom-id';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import rehypeShiki from '@leafac/rehype-shiki';
+
 import eslintPlugin from 'vite-plugin-eslint';
-import { refractor } from 'refractor';
-import markdown from 'refractor/lang/markdown.js';
 
 export default defineConfig(async (ConfigEnv) => {
   const mdx = await import('@mdx-js/rollup');
@@ -77,7 +77,8 @@ export default defineConfig(async (ConfigEnv) => {
           rehypeAutolinkHeadings,
           rehypeExternalLinks,
           rehypeSlugCustomId,
-          rehypeSlug
+          rehypeSlug,
+          rehypeShiki
         ]
       }),
       tsconfigPaths(),

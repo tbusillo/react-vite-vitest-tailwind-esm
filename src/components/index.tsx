@@ -4,8 +4,8 @@ import Header from './Header';
 import { NavBarGroup, NavItem, NavLogo } from './NavBar';
 import { Card, CardContent, CardHeader, CardFooter } from './Card';
 import ContentContainer from './ContentContainer';
-import Layout from './Layout';
 import Spinner from './Spinner';
+import PrismListener from './PrismListener';
 
 export {
   AppRoutes,
@@ -18,7 +18,7 @@ export {
   CardHeader,
   CardFooter,
   Card,
-  Layout,
+  PrismListener,
   ContentContainer,
   Spinner
 };

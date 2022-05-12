@@ -6,8 +6,9 @@ const highlighter = async () => {
       theme: 'nord'
     })
     .then((highlighter) => {
+      const element = document.querySelector('code');
       console.log(
-        highlighter.codeToHtml(`console.log('shiki');`, { lang: 'js' })
+        highlighter.codeToHtml(`${element?.innerHTML});`, { lang: 'js' })
       );
       highlighter.codeToHtml(`console.log('shiki');`, { lang: 'js' });
     });

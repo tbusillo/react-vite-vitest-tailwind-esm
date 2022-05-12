@@ -1,5 +1,6 @@
 import classNames from 'classnames';
 import { NavBarGroup } from '@components';
+import logo from '@logo.svg';
 
 type LayoutProviderProps = {
   children?: React.ReactNode | React.ReactNode[];
@@ -17,9 +18,7 @@ export default function LayoutProvider({
   }
   return (
     <div className={classNames(className ? className : '', 'min-h-full')}>
-      <NavBarGroup
-        logo={<img src='/logo.svg' className='w-8 h-8' alt='logo' />}
-      />
+      <NavBarGroup logo={<img src={logo} className='w-8 h-8' alt='logo' />} />
       <main>
         {/* <Header title='TBD Playground' /> */}
         {children}

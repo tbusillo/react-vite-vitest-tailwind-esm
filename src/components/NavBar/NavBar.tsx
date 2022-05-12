@@ -17,7 +17,7 @@ type NavBarProps = {
 const navigation = [
   { name: 'Dashboard', href: '/', current: true },
   { name: 'My Designs', href: '/designs', current: false },
-  { name: 'Explore', href: '/explore', current: false },
+  { name: 'Example', href: '/example', current: false },
   { name: 'Inspiration', href: '/inspiration', current: false },
   { name: 'Editor', href: '/editor' }
 ];
@@ -26,7 +26,7 @@ const userNavigation = [
   { name: 'Your Profile', href: '/profile' },
   { name: 'Settings', href: '/settings' },
   { name: 'Documentation', href: '/docs' },
-  { name: 'Example', href: '/docs/example' }
+  { name: 'Example', href: '/example' }
 ];
 
 const user = {

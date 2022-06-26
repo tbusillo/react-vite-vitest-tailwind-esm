@@ -12,7 +12,7 @@ const PrismListener = ({ children }: PrismListenerProps) => {
   console.log(location);
   useEffect(() => {
     Prism.highlightAll();
-    console.log('Prism should have rehighlighted');
+    // console.log('Prism should have rehighlighted');
   }, [location]);
 
   return <div>{children}</div>;

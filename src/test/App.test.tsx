@@ -10,6 +10,6 @@ describe('Simple working test', () => {
         <App />
       </BrowserRouter>
     );
-    expect(screen.getByRole('main')).toBeInTheDocument();
+    expect(screen.getByRole('main')).toBeTruthy();
   });
 });

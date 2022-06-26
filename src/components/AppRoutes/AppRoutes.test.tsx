@@ -2,15 +2,14 @@ import { describe, expect, it } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import { AppRoutes } from '@components';
 import { Router } from 'react-router-dom';
-
-function go(): import('react-router-dom').Navigator {
-  throw new Error('Mocked function');
-}
+import { createMemoryHistory } from 'history';
 
 describe('AppRoutes component', () => {
   it('renders a AppRoutes wrapping element', () => {
+    const history = createMemoryHistory();
+
     render(
-      <Router location={'/'} navigator={go()}>
+      <Router location={history.location} navigator={history}>
         <AppRoutes />
       </Router>
     );
@@ -20,6 +19,6 @@ describe('AppRoutes component', () => {
       screen.getByRole('heading', {
         name: /test/i
       })
-    ).toBeInTheDocument();
+    ).toBeTruthy();
   });
 });

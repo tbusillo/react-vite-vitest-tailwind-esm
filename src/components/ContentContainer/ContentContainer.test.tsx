@@ -6,6 +6,6 @@ describe('ContentContainer', () => {
   it('renders a ContentContainer wrapping element', () => {
     render(<ContentContainer>Hello</ContentContainer>);
 
-    expect(screen.getByText(/Hello/i)).exists();
+    expect(screen.getByText(/Hello/i)).toBeTruthy();
   });
 });

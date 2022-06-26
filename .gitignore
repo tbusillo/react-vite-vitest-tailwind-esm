@@ -43,3 +43,4 @@ Thumbs.db
 proj_data
 tsconfig.tsbuildinfo
 src/docs
+.yarn

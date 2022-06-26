@@ -17,7 +17,6 @@ import remarkCodeFrontmatter from 'remark-code-frontmatter';
 import rehypeExternalLinks from 'rehype-external-links';
 import rehypeSlugCustomId from 'rehype-slug-custom-id';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
-import rehypeShiki from '@leafac/rehype-shiki';
 
 import eslintPlugin from 'vite-plugin-eslint';
 
@@ -77,8 +76,7 @@ export default defineConfig(async (ConfigEnv) => {
           rehypeAutolinkHeadings,
           rehypeExternalLinks,
           rehypeSlugCustomId,
-          rehypeSlug,
-          rehypeShiki
+          rehypeSlug
         ]
       }),
       tsconfigPaths(),

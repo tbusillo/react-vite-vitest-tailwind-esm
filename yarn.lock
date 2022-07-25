@@ -1629,10 +1629,10 @@
     unist-util-visit "^4.0.0"
     vfile "^5.0.0"
 
-"@mdx-js/rollup@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@mdx-js/rollup/-/rollup-2.1.1.tgz#7ed1530a14d6284c56c50247dd86c322119e554b"
-  integrity sha512-oOWCEpm91ewLeywxeyNmOeaORCosLAQ6O0t/4yvou33z64F14lCx3rIJUZb7K+ZIEp03q46t5mTj37ybBmI1sw==
+"@mdx-js/rollup@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@mdx-js/rollup/-/rollup-2.1.2.tgz#fe2cea3380954d7c12a66784a1e395b236c2dbfe"
+  integrity sha512-3ahqp3DCpIlGlCRuLX4z7dFEgN5kWBljrk8BpipiWkVrvB4FQpTQu1T7lmDffm8tOunjHAsZEHtb076HiW51NQ==
   dependencies:
     "@mdx-js/mdx" "^2.0.0"
     "@rollup/pluginutils" "^4.0.0"

@@ -34,9 +34,9 @@
     "@headlessui/react": "^1.6.1",
     "@heroicons/react": "^1.0.6",
     "@mdx-js/mdx": "^2.1.1",
-    "@mdx-js/rollup": "^2.1.1",
+    "@mdx-js/rollup": "^2.1.2",
     "@monaco-editor/react": "^4.4.4",
-    "@tailwindcss/forms": "^0.5.1",
+    "@tailwindcss/forms": "^0.5.2",
     "@tailwindcss/typography": "^0.5.2",
     "@testing-library/react-hooks": "^8.0.0",
     "@types/jest": "^27.5.0",
@@ -57,7 +57,7 @@
     "plop": "^3.1.0",
     "postcss": "^8.4.13",
     "prismjs": "^1.28.0",
-    "react": "^18.0.0",
+    "react": "^18.2.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.3.0",
     "refractor": "^4.7.0",
@@ -89,7 +89,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^14.1.1",
-    "@types/react": "^18.0.9",
+    "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.3",
     "@types/react-router-dom": "^5.3.3",
     "@types/react-test-renderer": "^18.0.0",
@@ -115,6 +115,6 @@
     "vite": "^2.9.8",
     "vite-plugin-eslint": "^1.6.0",
     "vite-tsconfig-paths": "^3.4.1",
-    "vitest": "^0.12.0"
+    "vitest": "^0.19.1"
   }
 }

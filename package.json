@@ -115,6 +115,6 @@
     "vite": "^3.0.9",
     "vite-plugin-eslint": "^1.7.0",
     "vite-tsconfig-paths": "^3.4.1",
-    "vitest": "^0.20.2"
+    "vitest": "^0.22.1"
   }
 }

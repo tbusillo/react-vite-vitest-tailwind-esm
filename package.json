@@ -35,7 +35,7 @@
     "@heroicons/react": "^1.0.6",
     "@mdx-js/mdx": "^2.1.1",
     "@mdx-js/rollup": "^2.1.2",
-    "@monaco-editor/react": "^4.4.4",
+    "@monaco-editor/react": "^4.4.5",
     "@tailwindcss/forms": "^0.5.2",
     "@tailwindcss/typography": "^0.5.2",
     "@testing-library/react-hooks": "^8.0.1",

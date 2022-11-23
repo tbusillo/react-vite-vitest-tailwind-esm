@@ -35,7 +35,7 @@
     "@heroicons/react": "^1.0.6",
     "@mdx-js/mdx": "^2.1.1",
     "@mdx-js/rollup": "^2.1.2",
-    "@monaco-editor/react": "^4.4.4",
+    "@monaco-editor/react": "^4.4.6",
     "@tailwindcss/forms": "^0.5.2",
     "@tailwindcss/typography": "^0.5.2",
     "@testing-library/react-hooks": "^8.0.1",
@@ -115,6 +115,6 @@
     "vite": "^3.0.9",
     "vite-plugin-eslint": "^1.7.0",
     "vite-tsconfig-paths": "^3.4.1",
-    "vitest": "^0.22.1"
+    "vitest": "^0.25.0"
   }
 }

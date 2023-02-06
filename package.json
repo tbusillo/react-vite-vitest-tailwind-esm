@@ -64,7 +64,7 @@
     "rehype-autolink-headings": "^6.1.1",
     "rehype-external-links": "^2.0.1",
     "rehype-shiki": "^0.0.9",
-    "rehype-slug": "^5.0.1",
+    "rehype-slug": "^5.1.0",
     "rehype-slug-custom-id": "^1.1.0",
     "remark-code-frontmatter": "^1.0.0",
     "remark-frontmatter": "^4.0.1",
